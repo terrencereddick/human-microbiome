@@ -1,0 +1,643 @@
+
+<!DOCTYPE HTML>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>SMIL Timesheets mediaSync, SVG text, vorbis/mp3 and jpg example - Human Microbiome </title>
+  
+<style type="text/css">
+
+body { 
+text-align: center;
+}
+
+div {
+width: 1100px;
+height: 619px;
+top: 0.0em;
+left: 0.0em;
+color:black;
+}
+
+.svg-text {
+width:1100px;
+height:589px;
+}
+
+img {
+position: absolute;
+top: 0.0em;
+left: 0.0em;
+transition         : all 1s;
+-o-transition      : all 1s;
+-moz-transition    : all 1s;
+-webkit-transition : all 1s;
+z-index:-1;
+}
+
+audio {
+position: absolute;
+top: 589px;
+left: 0px;
+width:1100px;
+height:30px;
+}
+
+/* cross-fade effect */
+.crossfade  img { 
+opacity: 0;
+}
+
+.crossfade img[smil=active] { 
+opacity: 1;
+}
+
+</style>
+
+
+
+<script type="text/javascript" src="timesheets.js">
+</script>
+
+</head>
+
+<body class="crossfade">
+ 
+<div id="hmp" mediaSync="#music" timecontainer="par" >
+ 
+
+<audio id="music" preload="auto" controls="controls"
+alt="Bluemillenium_-_Morsbach_1954..mp3 from ccmixter.org/people/Bluemillenium"  >
+<source src="media/Bluemillenium_-_Morsbach_1954_1.ogg" type="audio/ogg" />
+<source src="media/Bluemillenium_-_Morsbach_1954_1.mp3" type="audio/mpeg" />
+Your browser does not support the HTML5 audio element
+</audio>
+    
+<img begin="01.00s" dur="06.00s" src="media/PhageExterior.jpg" 
+alt="Bacteriophage image from http://en.wikipedia.org/wiki/Phage" />    
+
+
+
+<p class="svg-text" begin="04.00s" dur="03.00s" timeAction="display" >
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="1100"
+   height="589"
+   id="svg2">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8">
+    <linearGradient
+       id="linearGradient21494">
+      <stop
+         id="stop21496"
+         style="stop-color:#ffff00;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop21498"
+         style="stop-color:#008000;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="390.17667"
+       y1="156.83879"
+       x2="392.40625"
+       y2="451.14346"
+       id="linearGradient21500"
+       xlink:href="#linearGradient21494"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <text
+     x="350.77408"
+     y="166.88182"
+     transform="scale(1.0326729,0.96836084)"
+     id="text4"
+     style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial Bold">
+    <tspan
+       x="350.77408"
+       y="166.88182"
+       id="tspan3203">Exploring inner space</tspan>
+    <tspan
+       x="350.77408"
+       y="229.38182"
+       id="tspan3205"></tspan>
+    <tspan
+       x="350.77408"
+       y="291.88184"
+       id="tspan3207">Human Microbiome Project</tspan>
+  </text>
+</svg>
+
+
+
+</p>
+
+
+<img begin="08.00s" dur="10.00s" src="media/NHGRI-85347_1.jpg" 
+alt="Human Microbiome samples sites image from genome.gov/dmd/img.cfm?node=Photos/Graphics&id=85347/ ">    
+
+
+
+<p class="svg-text" begin="08.00s" dur="10.00s" timeAction="display" >
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="1100"
+   height="589"
+   id="svg2">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8">
+    <linearGradient
+       id="linearGradient21494">
+      <stop
+         id="stop21496"
+         style="stop-color:#ffff00;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop21498"
+         style="stop-color:#008000;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="390.17667"
+       y1="156.83879"
+       x2="392.40625"
+       y2="451.14346"
+       id="linearGradient21500"
+       xlink:href="#linearGradient21494"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <text
+     x="333.80927"
+     y="172.94604"
+     transform="scale(1.0326729,0.96836084)"
+     id="text4"
+     style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial Bold">
+    <tspan
+       x="333.80927"
+       y="172.94604"
+       id="tspan3050">Human Microbiome Project:</tspan>
+    <tspan
+       x="333.80927"
+       y="235.44604"
+       id="tspan3052">-242 healthy people studied</tspan>
+    <tspan
+       x="333.80927"
+       y="297.94604"
+       id="tspan3054">-5 year project</tspan>
+    <tspan
+       x="333.80927"
+       y="360.44604"
+       id="tspan3056">-$173 million</tspan>
+  </text>
+</svg>
+
+
+</p>
+
+
+
+
+<img begin="19.00s" dur="10.00s" src="media/NHGRI-79092_2.jpg" 
+alt="Human gut microbe image from genome.gov/dmd/img.cfm?node=Photos/Microorganisms&id=79092" />    
+
+
+<p  class="svg-text" begin="19.00s" dur="10.00s" timeAction="display" >
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="1100"
+   height="589"
+   id="svg2">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8">
+    <linearGradient
+       id="linearGradient21494">
+      <stop
+         id="stop21496"
+         style="stop-color:#ffff00;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop21498"
+         style="stop-color:#008000;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="390.17667"
+       y1="156.83879"
+       x2="392.40625"
+       y2="451.14346"
+       id="linearGradient21500"
+       xlink:href="#linearGradient21494"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <text
+     x="511.2637"
+     y="164.26917"
+     transform="scale(1.0326729,0.96836083)"
+     id="text4"
+     style="font-size:45px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial">
+    <tspan
+       x="511.2637"
+       y="164.26917"
+       id="tspan3058">Our Microbiome:</tspan>
+    <tspan
+       x="511.2637"
+       y="220.51917"
+       id="tspan3060">-trillions of microbes</tspan>
+    <tspan
+       x="511.2637"
+       y="276.76917"
+       id="tspan3062">-10,000 different species</tspan>
+    <tspan
+       x="511.2637"
+       y="333.01917"
+       id="tspan3064">-bacteria, yeasts, viruses...</tspan>
+    <tspan
+       x="511.2637"
+       y="389.26917"
+       id="tspan3066">(mostly bacteria)</tspan>
+  </text>
+</svg>
+
+
+</p>
+
+
+
+
+
+<img begin="30.00s" dur="10.00s" src="media/4786911469_8766d02b99_o_1.jpg" 
+alt="So I'll Wait On Some Other Escape image from flickr.com/photos/beth19/4786911469/" />    
+
+ 
+<p  class="svg-text" begin="30.00s" dur="10.00s" timeAction="display" >
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="1100"
+   height="589"
+   id="svg2">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8">
+    <linearGradient
+       id="linearGradient21494">
+      <stop
+         id="stop21496"
+         style="stop-color:#ffff00;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop21498"
+         style="stop-color:#008000;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="390.17667"
+       y1="156.83879"
+       x2="392.40625"
+       y2="451.14346"
+       id="linearGradient21500"
+       xlink:href="#linearGradient21494"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <text
+     x="295.06509"
+     y="388.62845"
+     transform="scale(1.0326729,0.96836083)"
+     id="text4"
+     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial Bold">
+    <tspan
+       x="295.06509"
+       y="388.62845"
+       id="tspan3066">Our microbiomes are as unique as us</tspan>
+    <tspan
+       x="295.06509"
+       y="438.62845"
+       id="tspan3068">but they share the same functionality</tspan>
+  </text>
+</svg>
+
+</p>
+
+
+
+
+
+
+
+
+
+<img begin="41.00s" dur="10.00s" src="media/Sherlaton_t-shirt_2.jpg" 
+alt="Sherlaton t-shirt image from upload.wikimedia.org/wikipedia/commons/f/f9/Sherlaton_t-shirt.jpg" />    
+
+<p class="svg-text" begin="41.00s" dur="10.00s" timeAction="display" >
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="1100"
+   height="589"
+   id="svg2">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8">
+    <linearGradient
+       id="linearGradient21494">
+      <stop
+         id="stop21496"
+         style="stop-color:#ffff00;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop21498"
+         style="stop-color:#008000;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="390.17667"
+       y1="156.83879"
+       x2="392.40625"
+       y2="451.14346"
+       id="linearGradient21500"
+       xlink:href="#linearGradient21494"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <text
+     x="538.38751"
+     y="233.68419"
+     transform="scale(1.0326729,0.96836084)"
+     id="text4"
+     style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial Bold">
+    <tspan
+       x="538.38751"
+       y="233.68419"
+       id="tspan3068"
+       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial Bold">I am 22,000</tspan>
+    <tspan
+       x="538.38751"
+       y="296.1842"
+       id="tspan3070"
+       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial Bold">human genes</tspan>
+    <tspan
+       x="538.38751"
+       y="358.6842"
+       id="tspan3072"
+       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial Bold">and 8 million</tspan>
+    <tspan
+       x="538.38751"
+       y="421.1842"
+       id="tspan3074"
+       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial Bold">microbial genes</tspan>
+  </text>
+</svg>
+
+
+
+
+   
+
+</p>
+
+
+
+<img begin="52.00s" dur="10.00s" src="media/392550046_53f0ae844e_o_1.jpg" 
+alt="Side view image from flickr.com/photos/dramaqueennorma/392550046/" /> 
+
+<p class="svg-text" begin="52.00s" dur="10.00s" timeAction="display" >
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="1100"
+   height="589"
+   id="svg2">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8">
+    <linearGradient
+       id="linearGradient21494">
+      <stop
+         id="stop21496"
+         style="stop-color:#ffff00;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop21498"
+         style="stop-color:#008000;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="390.17667"
+       y1="156.83879"
+       x2="392.40625"
+       y2="451.14346"
+       id="linearGradient21500"
+       xlink:href="#linearGradient21494"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <text
+     x="611.2265"
+     y="180.38335"
+     transform="scale(1.0326729,0.96836084)"
+     id="text4"
+     style="font-size:47px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial Bold">
+    <tspan
+       x="611.2265"
+       y="180.38335"
+       id="tspan3036">We are a</tspan>
+    <tspan
+       x="611.2265"
+       y="239.13335"
+       id="tspan3038">super-species</tspan>
+    <tspan
+       x="611.2265"
+       y="297.88336"
+       id="tspan3040">human + mutable</tspan>
+    <tspan
+       x="611.2265"
+       y="356.63336"
+       id="tspan3042">microbes</tspan>
+    <tspan
+       x="611.2265"
+       y="415.38336"
+       id="tspan3044"></tspan>
+  </text>
+</svg>
+
+
+
+
+</p>
+
+<p class="svg-text" begin="63.00s" dur="99.00s" timeAction="display" >
+<a href="human-microbiome_credits.html" title="Credits" target="_blank" >
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="1100"
+   height="589"
+   id="svg2">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8">
+    <linearGradient
+       id="linearGradient21494">
+      <stop
+         id="stop21496"
+         style="stop-color:#ffff00;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop21498"
+         style="stop-color:#008000;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="390.17667"
+       y1="156.83879"
+       x2="392.40625"
+       y2="451.14346"
+       id="linearGradient21500"
+       xlink:href="#linearGradient21494"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <text
+     x="130.01028"
+     y="300.62012"
+     transform="scale(1.0326729,0.96836084)"
+     id="text4"
+     style="font-size:70px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial">
+    <tspan
+       x="130.01028"
+       y="300.62012"
+       id="tspan2988">Credits</tspan>
+  </text>
+</svg>
+</a>
+
+</p>
+
+
+
+
+</div>
+   
+ 
+
+ 
+</body>
+</html>
